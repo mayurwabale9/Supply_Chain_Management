@@ -1,35 +1,134 @@
-Supply Chain Management 
+# 📦 Supply Chain Management Dashboard (Power BI)
 
+## 📌 Project Overview
 
-What is Supply Chain Management :
-							Supply chain management or fleet management it is type off management who primary focus on planning, controlling of demand & supply of good and service. supply chain management have four main pillars which is Manufacturing, Supplier, Wearhouse, Distribution. M to S, S to W, W to D.
+This project presents a **Supply Chain Management (SCM) Dashboard** built using **Microsoft Power BI**. The dashboard provides insights into warehouse operations, distributor networks, inventory refilling, warehouse capacity, and supply chain performance.
 
-Why Supply Chain Management is important :
-					supply chain management is important because, if there is one them pillar are missing the supply chain will break. this management helps in to manage flow of supply of goods and services. An effective supply chain ensures products are delivered on time while minimizing costs and maximizing customer satisfaction.
+The goal of this project is to help businesses make **data-driven decisions** by analyzing key supply chain metrics and improving operational efficiency.
 
-Important of Supply Chain Management :
-					Reduces Operational Costs
-					Improves Customer Satisfaction
-					Increases Efficiency
-					Better Inventory Management
-					Enhances Product Quality
-					Boosts Profitability
-					Faster Response to Market Changes
-					Competitive Advantage
+---
 
-BRD : Business Requirement Document
-High Level KPI's  :
-				retail_shop_num
-				workers_num
-				approved_wh_govt_certificate(DAX)
-	
+## 🚀 Features
 
+- 📊 Interactive Power BI Dashboard
+- 🏭 Warehouse Capacity Analysis
+- 🚚 Distributor Network Overview
+- 📍 Average Distance from Hub Analysis
+- 🛒 Retail Shop Distribution
+- 🌊 Flood-Proof vs Flood-Impacted Warehouse Analysis
+- 📦 Refill Request Analysis
+- 🌍 Regional Zone Performance
+- ⚠️ Warehouse Breakdown Analysis
+- 📈 KPI Cards for Quick Insights
 
-FRD : Function Requirement Document
-	
+---
 
+## 📊 Dashboard KPIs
 
-SWOT
+| KPI | Value |
+|------|-------|
+| Total Warehouses | 22.15K |
+| Total Distributors | 56 |
+| Total Retail Shops | 4.735K |
+| Average Distance from Hub | 163.61 |
 
+---
 
-Fish Bone
+## 📈 Dashboard Insights
+
+### Warehouse Capacity
+- Large warehouses contribute approximately **40.43%** of total capacity.
+- Mid-sized warehouses contribute around **40.22%**.
+- Small warehouses account for **19.35%**.
+
+### Regional Performance
+- Zone 3 has the highest average refill requests.
+- Zone 1 has the lowest average refill requests.
+
+### Warehouse Breakdowns
+- North Zone recorded the highest warehouse breakdowns.
+- East Zone recorded the lowest warehouse breakdowns.
+
+### Warehouse Certification
+The dashboard compares:
+- Flood-Proof Warehouses
+- Flood-Impacted Warehouses
+- Government Certification Status
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Microsoft Power BI
+- Microsoft Excel / CSV Dataset
+- Data Visualization
+- Business Intelligence
+- Supply Chain Analytics
+
+---
+
+## 📂 Project Structure
+
+```
+Supply-Chain-Management/
+│
+├── Dashboard.pbix
+├── SCM (1).csv
+├── scm.pdf
+├── screenshots/
+│   └── dashboard.png
+└── README.md
+```
+
+---
+
+## 📷 Dashboard Preview
+
+> Add a screenshot of your Power BI dashboard here.
+
+Example:
+
+```md
+![Dashboard Screenshot](screenshots/dashboard.png)
+```
+
+---
+
+## 🎯 Business Objectives
+
+- Monitor warehouse performance
+- Track distributor operations
+- Analyze refill demand
+- Identify warehouse risks
+- Improve supply chain efficiency
+- Support data-driven decision-making
+
+---
+
+## 📚 Skills Demonstrated
+
+- Data Cleaning
+- Data Modeling
+- DAX Calculations
+- Power Query
+- Data Visualization
+- Business Analytics
+- KPI Dashboard Design
+- Supply Chain Analytics
+
+---
+
+## 📌 Future Improvements
+
+- Add forecasting using Power BI AI visuals
+- Include inventory optimization metrics
+- Add transportation cost analysis
+- Create drill-through reports
+- Publish dashboard to Power BI Service
+
+---
+
+## 👤 Author
+
+**Mayur Wabale**
+
